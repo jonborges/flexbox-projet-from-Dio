@@ -1,0 +1,438 @@
+        * {
+            box-sizing: border-box;
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        
+        #nav-menu ul {
+            list-style: none;
+            padding-right: 100px;
+            display: flex;
+        }
+        
+        li {
+            padding: 15px;
+        }
+        
+        li a {
+            color: white;
+        }
+        
+        ul li a {
+            text-decoration: none;
+            font-size: 19px;
+        }
+        /*MENU SUPERIOR  */
+        
+        #nav-menu {
+            width: 100%;
+            height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-direction: row;
+            background-color: #122a57;
+        }
+        /*LISTA MOBILE INVISIVEL */
+        
+        #lista-mobile {
+            display: none;
+        }
+        
+        #logotipo {
+            padding: 190px;
+            color: white;
+            text-shadow: 5px 2px 1px black;
+        }
+        /* MAIN */
+        
+        main {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 100%;
+        }
+        /* PRIMEIRO TITULO */
+        
+        #flex-turismos {
+            height: 100vh;
+            padding-left: 185px;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        #flex-turismos p {
+            font-size: 28px;
+        }
+        
+        #flex-turismos h1 {
+            margin-top: 25px;
+        }
+        
+        #flex-turismos h1 {
+            color: #122a57;
+            font-size: 48px;
+        }
+        /*BOTAO SAIBA MAIS  */
+        
+        #botao {
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+            font-size: 24px;
+            top: 60px;
+            width: 220px;
+            display: block;
+            height: 40px;
+            border-radius: 30px;
+            background-color: #122a57;
+        }
+        
+        #botao a {
+            text-decoration: none;
+            color: white;
+        }
+        /*DUPLA DE IMAGEM E TEXTO 1  */
+        
+        #imagem-texto-01 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            padding-top: 40px;
+        }
+        /*IMAGEM QUEM SOMOS MT GRANDE, REDUZIR ELA */
+        
+        #imagem-01 {
+            height: 600px;
+        }
+        /*DUPLA 2  */
+        
+        #imagem-texto-02 {
+            display: flex;
+            justify-content: center;
+        }
+        /*CONFIG DE TEXTO  */
+        
+        #quem-somos-texto {
+            padding-top: 50px;
+            padding-bottom: 15px;
+            color: #122a57;
+            font-size: 35px;
+        }
+        
+        #quem-somos p {
+            font-size: 20px;
+            width: 700px;
+            padding: 10px;
+        }
+        
+        #quem-somos h2 {
+            font-size: 40px;
+            color: #122a57;
+            display: flex;
+        }
+        
+        #quem-somos h2::before {
+            content: "";
+            height: 50px;
+            width: 5px;
+            margin-right: 5px;
+            background-color: #122a57;
+            position: relative;
+        }
+        /*ICONES SESSÃO  */
+        
+        #icones {
+            background-color: black;
+        }
+        /*SERVIÇOS  */
+        
+        #article02 {
+            background-color: #122a57;
+            display: flex;
+            flex-direction: column;
+            padding-top: 80px;
+            padding-bottom: 80px;
+            width: 100%;
+            height: 100%;
+        }
+        /*  */
+        
+        #servicos-lista {
+            display: flex;
+            justify-content: space-between;
+        }
+        /*  */
+        
+        .item-service {
+            text-align: center;
+            flex: 1;
+        }
+        
+        .item-service img {
+            max-width: 200px;
+        }
+        
+        #titulo h2 {
+            color: white;
+            font-size: 40px;
+            height: 100px;
+            padding-left: 60px;
+        }
+        
+        .item-service a {
+            width: 220px;
+            background-color: #fff;
+            border-radius: 30px;
+            height: 50px;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 50px;
+            padding: 5px 10px;
+            color: #122a57;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        
+        .item-service p {
+            font-weight: 700;
+            font-size: 18px;
+            color: #fff;
+            margin-top: 20px;
+        }
+        
+        .item-service img {
+            width: 80%;
+            margin: auto;
+        }
+        /*Sessão dos planos */
+        
+        #planos {
+            display: flex;
+            width: 100%;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        
+        #planos h2 {
+            color: black;
+            padding-top: 100px;
+            font-size: 40px;
+            height: 100px;
+            padding-left: 60px;
+        }
+        /*Div com todos dentro, sem o titulo */
+        
+        #list-planos {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            justify-content: center;
+            gap: 100px;
+            width: 100%;
+            height: 100%;
+        }
+        /*BOTOES DE BAIXO, DIFERENTES UM POUCO */
+        
+        .botao-2 {
+            text-align: center;
+            line-height: 40px;
+            font-size: 24px;
+            width: 220px;
+            margin: auto;
+            display: block;
+            height: 40px;
+            border-radius: 30px;
+            color: white;
+            text-decoration: none;
+            background-color: #122a57;
+            margin-bottom: 20px;
+        }
+        
+        #botao-bugado {
+            width: 200px;
+        }
+        
+        .item-plano {
+            border: 3px solid #122a57;
+            margin-right: 20px;
+            text-align: center;
+        }
+        /*TITULOS */
+        
+        .item-plano h3 {
+            margin-top: 20px;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+        }
+        /*BARRA NA LISTA PLANOS */
+        
+        .item-plano h3::after {
+            content: '';
+            background-color: #122a57;
+            width: 100%;
+            height: 3px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+        
+        .item-plano ul {
+            padding: 10px 20px;
+            display: flex;
+            flex-direction: column;
+        }
+        /*LSTA  */
+        
+        .item-plano li {
+            flex: 1;
+        }
+        /*LISTAS*/
+        
+        .item-plano ul li {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+        }
+        
+        .item-plano li::before {
+            content: '';
+            height: 10px;
+            width: 10px;
+            background-color: #122a57;
+            margin-right: 5px;
+        }
+        /*FOOTER/FINAL */
+        
+        #footer-container {
+            background-color: #122a57;
+            display: flex;
+            justify-content: space-between;
+            padding: 25px;
+            color: white;
+            height: 70px;
+        }
+        /* MOBILE*/
+        
+        @media(max-width: 320px) {
+            html {
+                width: 340px;
+            }
+            body {
+                display: flex;
+                padding: 0px;
+                margin: 0px;
+                box-sizing: border-box;
+                flex-direction: column;
+                overflow-x: hidden;
+            }
+            #nav-menu {
+                display: flex;
+                height: 100px;
+                width: 100%;
+                background-color: #122a57;
+            }
+            #logotipo {
+                padding: 65px;
+            }
+            #nav-menu ul {
+                display: none;
+            }
+            /*MOSTRAR LISTA MOBILE */
+            #lista-mobile {
+                display: block;
+            }
+            #lista-mobile ul {
+                display: flex;
+                flex-direction: column;
+                background-color: #122a57;
+                width: 100%;
+                text-align: center;
+            }
+            /*DUPLA DE IMAGENS 1 */
+            #article01 {
+                display: flex;
+                flex-direction: column;
+            }
+            #imagem-texto-01 img {
+                display: none;
+            }
+            #flex-turismos {
+                position: relative;
+                right: 100px;
+                height: 350px;
+            }
+            /*SEGUNDA DUPLA DE IMAGEM E TEXTO */
+            #imagem-texto-02 {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                align-content: center;
+            }
+            #quem-somos-texto {
+                font-size: 10px;
+                padding-top: 10px;
+                padding-bottom: 5px;
+                color: #122a57;
+                text-align: center;
+            }
+            #quem-somos p {
+                font-size: 20px;
+                width: 300px;
+                padding: 5px;
+                padding-bottom: 15px;
+            }
+            #quem-somos h2 {
+                font-size: 20px;
+                color: #122a57;
+                display: flex;
+            }
+            /*Área dos serviços */
+            #article02 {
+                display: flex;
+                flex-direction: column;
+            }
+            #article02 h2 {
+                font-size: 24px;
+            }
+            #servicos-lista {
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+            }
+            #servicos-lista img {
+                width: 100px;
+                padding-bottom: 10px;
+            }
+            /*AREA DOS PLANOS*/
+            #planos {
+                display: flex;
+                flex-direction: column;
+                padding-bottom: 20px
+            }
+            #planos h2 {
+                display: none;
+            }
+            .item-plano {
+                display: flex;
+                flex-direction: column;
+                width: 300px;
+            }
+            #list-planos {
+                position: relative;
+                display: flex;
+                justify-content: flex-start;
+                flex-direction: column;
+            }
+            .botao-2 {
+                font-size: 13px;
+            }
+            /*FOOTER */
+            footer {
+                font-size: 9px;
+                flex-wrap: nowrap;
+            }
+        }
